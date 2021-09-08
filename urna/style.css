@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.urna {
+    background-color: #dbd5c9;
+    padding: 30px;
+    display: flex;
+    margin-top: 30px;
+}
+
+.tela {
+    width: 500px;
+    height: 320px;
+    background: linear-gradient(to right, #E8E8E8, #C1C1C1);
+    border: 2px solid #555;
+    display: flex;
+    flex-direction: column;
+}
+
+.teclado {
+    margin-left: 30px;
+    background-color: #403A3A;
+}
+
+.linha--teclado {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.botao--teclado {
+    width: 70px;
+    height: 40px;
+    background-color: #000;
+    color: #FFF;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    cursor: pointer;
+    box-shadow: 3px 3px 2px #FFF;
+}
+
+.botao--nulo {
+    background-color: #FFF;
+    color: #000;
+    font-size: 15px;
+    width: 70px;
+    height: 50px;
+    box-shadow: 1px 2px 0px #555;
+}
+
+.botao--corrige {
+    background-color: #F09046;
+    color: #000;
+    font-size: 15px;
+    width: 70px;
+    height: 50px;
+    box-shadow: 1px 2px 0px #555;
+}
+
+.botao--confirma {
+    background-color: #48C079;
+    color: #000;
+    font-size: 15px;
+    width: 90px;
+    height: 50px;
+    box-shadow: 2px 2px 0px #555;
+}
+
+.d-1 {
+    flex: 1;
+    display: flex;
+}
+
+.d-1-left {
+   flex: 1; 
+}
+
+.d-1-right {
+    width: 90px;
+}
+
+.d-2 {
+    height: 50px;
+    font-size: 14px;
+    padding-left: 10px;
+    border-top: 2px solid #000;    
+}
