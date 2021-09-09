@@ -1,7 +1,7 @@
 @keyframes pisca {
-    0% {opacity: 0.2;}
-    50% {opacity: 1;}
-    100% {opacity: 0.2;}
+    0% { opacity: 0.2; }
+    50% { opacity: 1; }
+    100% { opacity: 0.2; }
 }
 
 body {
@@ -13,10 +13,10 @@ body {
 }
 
 .urna {
+    margin-top: 30px;
     background-color: #dbd5c9;
     padding: 30px;
     display: flex;
-    margin-top: 30px;
 }
 
 .tela {
@@ -50,25 +50,21 @@ body {
     align-items: center;
     margin: 10px;
     cursor: pointer;
-    box-shadow: 3px 3px 2px #FFF;
+    box-shadow: 3px 3px 2px #C1C1C1;
 }
 
 .botao--nulo {
     background-color: #FFF;
     color: #000;
     font-size: 15px;
-    width: 70px;
-    height: 50px;
-    box-shadow: 1px 2px 0px #555;
+    box-shadow: 1px 1px 0px #555;
 }
 
 .botao--corrige {
     background-color: #F09046;
     color: #000;
     font-size: 15px;
-    width: 70px;
-    height: 50px;
-    box-shadow: 1px 2px 0px #555;
+    box-shadow: 1px 1px 0px #555;
 }
 
 .botao--confirma {
@@ -77,7 +73,7 @@ body {
     font-size: 15px;
     width: 90px;
     height: 50px;
-    box-shadow: 2px 2px 0px #555;
+    box-shadow: 1px 1px 0px #555;
 }
 
 .d-1 {
@@ -86,10 +82,10 @@ body {
 }
 
 .d-1-left {
-    display: flex;
     flex: 1;
+    display: flex;
     flex-direction: column;
-    padding-left: 20px; 
+    padding-left: 20px;
 }
 
 .d-1-1 {
@@ -111,8 +107,8 @@ body {
 
 .numero {
     display: inline-block;
-    height: 40px;
     width: 30px;
+    height: 40px;
     border: 1px solid #000;
     text-align: center;
     line-height: 40px;
@@ -126,7 +122,7 @@ body {
 }
 
 .d-1-4 {
-    display: flex;
+    flex: 1;
     line-height: 30px;
 }
 
@@ -141,6 +137,7 @@ body {
     border: 1px solid #000;
     background-color: #FFF;
     text-align: center;
+    font-size: 14px;
 }
 
 .d-1-image img {
@@ -150,12 +147,25 @@ body {
 .d-1-image.small {
     width: 80%;
     font-size: 12px;
-
 }
 
 .d-2 {
     height: 50px;
     font-size: 14px;
+    border-top: 2px solid #000;
     padding-left: 10px;
-    border-top: 2px solid #000;    
+}
+
+.aviso--grande {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.aviso--gigante {
+    font-size: 70px;
+    font-weight: bold;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

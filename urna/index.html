@@ -31,11 +31,11 @@
                 </div>
                 <div class="d-1-right">
                     <div class="d-1-image">
-                        <img src="" alt="">
+                        <img src="images/84.jpg" alt="">
                         Prefeito
                     </div>
-                    <div class="d-1-image">
-                        <img src="" alt="">
+                    <div class="d-1-image small">
+                        <img src="images/84_2.jpg" alt="">
                         Vice-prefeito
                     </div>
                 </div>
@@ -49,34 +49,36 @@
         <div class="teclado">
 
             <div class="linha--teclado">
-                <div class="botao--teclado">1</div>
-                <div class="botao--teclado">2</div>
-                <div class="botao--teclado">3</div>
+                <div class="botao--teclado" onclick="clicou('1')">1</div>
+                <div class="botao--teclado" onclick="clicou('2')">2</div>
+                <div class="botao--teclado" onclick="clicou('3')">3</div>
             </div>
 
             <div class="linha--teclado">
-                <div class="botao--teclado">4</div>
-                <div class="botao--teclado">5</div>
-                <div class="botao--teclado">6</div>
+                <div class="botao--teclado" onclick="clicou('4')">4</div>
+                <div class="botao--teclado" onclick="clicou('5')">5</div>
+                <div class="botao--teclado" onclick="clicou('6')">6</div>
             </div>
 
             <div class="linha--teclado">
-                <div class="botao--teclado">7</div>
-                <div class="botao--teclado">8</div>
-                <div class="botao--teclado">9</div>
+                <div class="botao--teclado" onclick="clicou('7')">7</div>
+                <div class="botao--teclado" onclick="clicou('8')">8</div>
+                <div class="botao--teclado" onclick="clicou('9')">9</div>
             </div>
 
             <div class="linha--teclado">
-                <div class="botao--teclado">0</div>
+                <div class="botao--teclado" onclick="clicou('0')">0</div>
             </div>
 
             <div class="linha--teclado">
-                <div class="botao--teclado botao--nulo">BRANCO</div>
-                <div class="botao--teclado botao--corrige">CORRIGE</div>
-                <div class="botao--teclado botao--confirma">CONFIRMA</div>
+                <div class="botao--teclado botao--nulo" onclick="nulo()">BRANCO</div>
+                <div class="botao--teclado botao--corrige" onclick="corrige()">CORRIGE</div>
+                <div class="botao--teclado botao--confirma" onclick="confirma()">CONFIRMA</div>
             </div>
         </div>
     </div>
 
+    <script src="./etapas.js"></script>
+    <script src="./script.js"></script>
 </body>
 </html>
