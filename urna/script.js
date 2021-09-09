@@ -111,13 +111,13 @@ function confirma() {
     let etapa = etapas[etapaAtual];
     let votoConfirmado = false;
 
-    if (votoBranco === true) {
+    if (votoNulo === true) {
         votoConfirmado = true;
         votosAtuais.push({
             etapa: etapas[etapaAtual].titulo,
             voto: 'branco'
         });
-
+        
     } else if (numeroDigitado.length === etapa.numeros) {
         votoConfirmado = true;
         votosAtuais.push({
